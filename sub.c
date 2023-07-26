@@ -1,10 +1,10 @@
 #include "monty.h"
 
-
 /**
- * _sub - function
+ * _sub - function to sub.
  * @head: the pile
  * @line_number: the number
+ *
  * Return: void
  */
 

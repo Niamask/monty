@@ -1,16 +1,16 @@
 #include "monty.h"
 
-
 /**
- * _pchar - function
+ * _pchar - function to pchar.
  * @stack: the pile
  * @line_number: the number
+ *
  * Return: void
  */
 
 void  _pchar(stack_t **stack, unsigned  int line_number)
 {
-	int n;
+	int nb;
 
 	if (*stack == NULL)
 	{
@@ -20,9 +20,9 @@ void  _pchar(stack_t **stack, unsigned  int line_number)
 		exit(EXIT_FAILURE);
 	}
 
-	n = (*stack)->n;
-	if (n >= 32 && n <= 127)
-		printf("%c\n", n);
+	nb = (*stack)->nb;
+	if (nb >= 32 && nb <= 127)
+		printf("%c\n", nb);
 	else
 	{
 		fprintf(stderr, "L%d: can't pchar, value out of range\n", line_number);

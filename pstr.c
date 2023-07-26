@@ -1,16 +1,16 @@
 #include "monty.h"
 
-
 /**
- * _pstr - function
+ * _pstr - function to pstr.
  * @stack: the pile
  * @line_number: the number
+ *
  * Return: void
  */
 
 void  _pstr(stack_t **stack, unsigned  int line_number)
 {
-	int n;
+	int nb;
 	stack_t *temp = *stack;
 
 	(void) line_number;
@@ -22,10 +22,10 @@ void  _pstr(stack_t **stack, unsigned  int line_number)
 
 	while (temp != NULL)
 	{
-		n = temp->n;
-		if (!(n >= 1 && n <= 127) || n == 0)
+		nb = temp->nb;
+		if (!(nb >= 1 && nb <= 127) || nb == 0)
 			break;
-		printf("%c", n);
+		printf("%c", nb);
 		temp = temp->next;
 	}
 	printf("\n");

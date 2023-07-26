@@ -5,6 +5,7 @@
  * _pop - function to pop.
  * @pile: the pile
  * @line_number: the number
+ *
  * Return: void
  */
 

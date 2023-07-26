@@ -1,6 +1,5 @@
 #include "monty.h"
 
-
 /**
  * _pall - function to pall.
  * @pile: the pile

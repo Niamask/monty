@@ -6,6 +6,7 @@
  *
  * Return: void.
  */
+
 void free_stack_t(stack_t *head)
 {
 	stack_t *temp;

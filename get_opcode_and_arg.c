@@ -1,12 +1,12 @@
 #include "monty.h"
 
-
 /**
- * get_opcode_and_arg - function
+ * get_opcode_and_arg - function to get opcode.
  * @str: the chaine
  *
  * Return: the linefile_t objet
  */
+
 linefile_t *get_opcode_and_arg(char *str)
 {
 	linefile_t *t = malloc(sizeof(linefile_t));

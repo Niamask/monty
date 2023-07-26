@@ -1,11 +1,10 @@
 #include "monty.h"
 
-
-
 /**
- * _rotr - function
+ * _rotr - function to rotr.
  * @stack: the pile
  * @line_number: the number
+ *
  * Return: void
  */
 

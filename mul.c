@@ -1,6 +1,5 @@
 #include "monty.h"
 
-
 /**
  * _mul - function
  * @head: the pile

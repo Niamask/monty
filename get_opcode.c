@@ -1,13 +1,14 @@
 #include "monty.h"
 
 /**
- * get_opcode - reads opcode and verifies if is valid.
+ * get_opcode - reads opcode and verifies if is valid or not.
  * @stack: double pointer to header (top) of the stack.
  * @line_number: counter for line number of the file.
  * @code: opcode to excecute.
  *
  * Return: void.
  */
+
 void get_opcode(stack_t **stack, unsigned int line_number, char *code)
 {
 	int i = 0;

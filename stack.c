@@ -1,8 +1,7 @@
 #include "monty.h"
 
-
 /**
- * _stack - function
+ * _stack - function to stack.
  * @pile: the pile
  * @line_number: the number
  * Return: void

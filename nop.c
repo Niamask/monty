@@ -1,8 +1,7 @@
 #include "monty.h"
 
-
 /**
- * _nop - function
+ * _nop - function to nop
  * @pile: the pile
  * @line_number: the number
  * Return: void

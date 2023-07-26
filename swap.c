@@ -1,6 +1,5 @@
 #include "monty.h"
 
-
 /**
  * _swap - function for swap.
  * @stack: the pile

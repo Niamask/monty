@@ -4,6 +4,7 @@
  * _add - function for add.
  * @stack: the pile
  * @line_number: the number
+ *
  * Return: void
  */
 
