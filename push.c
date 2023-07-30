@@ -12,7 +12,6 @@ void  _push(stack_t **pile, unsigned  int line_number)
 {
 	int nomb;
 
-
 	if (arguments == NULL)
 	{
 		fprintf(stderr, "L%d: usage: push integer\n", line_number);
